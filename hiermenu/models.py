@@ -15,11 +15,11 @@ class MenuManager(models.Manager):
 
 class Menu(models.Model):
     name = models.SlugField(max_length=100, 
-        help_text='Menu name')
+        help_text='Menu name.')
     parent = models.ForeignKey("self", null=True, blank=True, 
         help_text='The parent MenuItem this item will be a subitem of.')
     text = models.CharField(blank=True, max_length=50, 
-        help_text='The text of the item')
+        help_text='The text of the item.')
     link = models.CharField(blank=True, max_length=255, 
         help_text='The url in which this item links to.')
     alt = models.CharField(blank=True, max_length=100,  
@@ -31,13 +31,19 @@ class Menu(models.Model):
     location = models.PositiveIntegerField(choices=settings.LOCATIONS, 
         default=1, help_text='Location of menu.')
     display = models.BooleanField(default=True,
-        help_text='Show this menu item')
+        help_text='Show this menu item.')
     cssclass = models.CharField(blank=True, max_length=100, 
-        help_text='Extra css classes')
+        help_text='Extra css classes.')
     cssstyle = models.CharField(blank=True, max_length=100,
-        help_text='Extra css styles')
+        help_text='Extra css styles.')
     domid = models.CharField(blank=True, max_length=100,
-        help_text='A dom ID')
+        help_text='A dom ID.')
+    active_cssclass = models.CharField(blank=True, max_length=100, 
+        help_text='Extra css classes for active items.')
+    active_cssstyle = models.CharField(blank=True, max_length=100,
+        help_text='Extra css styles for active items.')
+    active_domid = models.CharField(blank=True, max_length=100, 
+        help_text='A dom ID for active items.')
     img = models.ImageField(blank=True, null=True, 
         upload_to=settings.UPLOAD_IMG_PATH, help_text='A menu image.')
     template_name = models.CharField(blank=True, max_length=100, 
