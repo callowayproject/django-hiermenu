@@ -61,6 +61,3 @@ class Menu(models.Model):
     class Meta:
         ordering = ['order']
 
-
-class MenuLocation(models.Model):
-    name = models.CharField(blank=True, max_length=100)
