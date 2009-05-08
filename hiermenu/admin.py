@@ -9,16 +9,20 @@ class MenuItemInline(admin.TabularInline):
 class MenuAdmin(admin.ModelAdmin):
     inlines = [MenuItemInline,]
     fieldsets = (
-        (None, {'fields': ('name', 'parent', 'location', 'text', 'link', 'order', 'display', 'active',)}),
+        (None, {'fields': ('name', 'parent', 'location', 'text', 
+                            'link', 'order', 'display', 'active',)}),
         ('Display Options', {'classes': ('collapse',),
-            'fields': ('cssclass', 'cssstyle', 'template_name', 'active_template_name', 'img',)}),
+            'fields': ('cssclass', 'active_cssclass', 'cssstyle', 
+                            'active_cssstyle', 'template_name', 
+                            'active_template_name', 'img',)}),
         ('Advanced Options', {'classes': ('collapse',), 
-            'fields': ('alt', 'domid', 'active_path_regex',)}),
+            'fields': ('alt', 'domid', 'active_domid', 
+                        'active_path_regex',)}),
     )
     list_display = ('name', 'parent', 'hierarchy', 'order', 'display', 'active')
     list_filter = ('parent',)
     search_fields = ('name', 'text')
-    ordering = ('name',)
+    ordering = ('parent',)
 
     def hierarchy(self, obj):
         parent, text, ret = obj.parent, obj.text or obj.name, obj.text or obj.name
@@ -27,3 +31,6 @@ class MenuAdmin(admin.ModelAdmin):
             parent = parent.parent
         return ret
     hierarchy.short_description = 'Hierarchy'
+    
+    
+admin.site.register(Menu, MenuAdmin)
