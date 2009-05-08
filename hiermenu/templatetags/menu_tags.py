@@ -18,17 +18,18 @@ class RenderMenuNode(Node):
     """
     Render menu node will render a given menu or menu_name.
     """
-    menu_name, loc, loc_name, template_prefix = None, '', '', ''
+    menu_name, loc, loc_name, template_prefix, override_match = None, '', '', '', ''
     
-    def __init__(self, menu_name, location, template_prefix=''):
+    def __init__(self, menu_name, location, template_prefix='', override_match=''):
         self.menu_name = menu_name
         self.loc, self.loc_name = map_location(location)
         self.template_prefix = template_prefix
+        self.override_match = override_match
                 
     def render(self, context):
         m_name, menu, request = self.menu_name, None, None
         loc, loc_name = int(self.loc), self.loc_name.lower()
-        tmp_pre = self.template_prefix
+        tmp_pre, override_match = self.template_prefix, self.override_match
         # Try to resolve the menu_name argument, incase it is a Menu object,
         # we set m_name to menu.name if it is not a Menu object but
         # still resolves, we use that as the name.
@@ -42,6 +43,11 @@ class RenderMenuNode(Node):
         except:
             pass
             
+        try:
+            override_match = Variable(override_match).resolve(context)
+        except:
+            pass
+
         # Resolve the request context
         if 'request' in context:
             request = Variable('request').resolve(context)
@@ -75,9 +81,14 @@ class RenderMenuNode(Node):
         setattr(menu, 'is_active', False)
         if hasattr(request, 'path') and menu.active_path_regex:
             r = re.compile(menu.active_path_regex, re.IGNORECASE)
-            if r.match(request.path):
+            if override_match:
+                if override_match.lower() == m_name:
+                    setattr(menu, 'is_active', True)
+                    suffix_template_name = '_active'
+            elif r.match(request.path):
                 setattr(menu, 'is_active', True)
                 suffix_template_name = '_active'
+                
                 
         # Get the template that will be used to render the menu, first we 
         # check if the menu has any overrides specified, then we check for
@@ -124,7 +135,10 @@ class RenderMenuNode(Node):
                 setattr(i, 'is_active', False)
                 if i.active_path_regex:
                     r = re.compile(i.active_path_regex, re.IGNORECASE)
-                    if r.match(request.path):
+                    if override_match:
+                        if override_match.lower() == i.name.lower():
+                            setattr(i, 'is_active', True)
+                    elif r.match(request.path):
                         setattr(i, 'is_active', True)
                         
         # Build the context to be sent to the template. We send the request
@@ -143,7 +157,7 @@ def do_render_menu(parser, token):
     """
     Render the menu 
     
-        {% render_menu menu_name location [template_prefix]  %}
+        {% render_menu menu_name location [template_prefix] [override_match]  %}
             
     Examples
     
@@ -158,6 +172,8 @@ def do_render_menu(parser, token):
         return RenderMenuNode(argv[1], argv[2])
     elif argc == 4:
         return RenderMenuNode(argv[1], argv[2], argv[3])
+    elif argc == 5:
+        return RenderMenuNode(argv[1], argv[2], argv[3], argv[4])
     raise TemplateSyntaxError, "Tag %s takes at least 2 argument." % argv[0]
     
 register.tag("render_menu", do_render_menu)
