@@ -1,0 +1,3566 @@
+[
+    {
+        "pk": 132,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "smallnav-news-services",
+             "parent": 125,
+             "text": "Times News Services",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "http://newsservice.washingtontimes.com/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 7
+        }
+    },
+     
+    {
+        "pk": 131,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "smallnav-special",
+             "parent": 125,
+             "text": "Special Sections",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "http://www.print2webcorp.com/news/washingtontimes/specialsections/default.html",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 6
+        }
+    },
+     
+    {
+        "pk": 130,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "smallnav-jobs",
+             "parent": 125,
+             "text": "Jobs",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/marketplace/jobs/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 129,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "smallnav-real-estate",
+             "parent": 125,
+             "text": "Real Estate",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/home-and-living/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 128,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "smallnav-autos",
+             "parent": 125,
+             "text": "Autos",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/autos/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 127,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "smallnav-classifieds",
+             "parent": 125,
+             "text": "Classifieds",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/http://www.print2webcorp.com/marketplace/washingtontimes/main/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 126,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "smallnav-frontpage",
+             "parent": 125,
+             "text": "Front Page Image",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/cover/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "first",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 125,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "smallnav",
+             "parent": null,
+             "text": "",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "smallnav",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 124,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-columns-tony-blankley",
+             "parent": 114,
+             "text": "Tony Blankley",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/tony-blankley/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 10
+        }
+    },
+     
+    {
+        "pk": 123,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-columns-cal-thomas",
+             "parent": 114,
+             "text": "Cal Thomas",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/cal-thomas/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 9
+        }
+    },
+     
+    {
+        "pk": 122,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-columns-ms-vicki",
+             "parent": 114,
+             "text": "Ms. Vicki",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/communities/talking-vicki/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 8
+        }
+    },
+     
+    {
+        "pk": 121,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-columns-don-lambro",
+             "parent": 114,
+             "text": "Don Lambro",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/donald-lambro/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 7
+        }
+    },
+     
+    {
+        "pk": 120,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-columns-lanny-davis",
+             "parent": 114,
+             "text": "Lanny Davis",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/lanny-davis/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 6
+        }
+    },
+     
+    {
+        "pk": 119,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-columns-andrew-breitbart",
+             "parent": 114,
+             "text": "Andrew Breitbart",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/andrew-breitbart/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 118,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-columns-inside-ring",
+             "parent": 114,
+             "text": "Inside the Ring",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/bill-gertz-inside-ring/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 117,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-columns-inside-beltway",
+             "parent": 114,
+             "text": "Inside the Beltway",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/john-mccaslin/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 116,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-columns-political-theater",
+             "parent": 114,
+             "text": "Political Theater",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/joe-curl-political-theater/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 115,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-columns-pruden",
+             "parent": 114,
+             "text": "Pruden on Politics",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/wesley-pruden/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 114,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-columns",
+             "parent": null,
+             "text": "",
+             "img": "",
+             "domid": "voices-menu",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 113,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-more",
+             "parent": 98,
+             "text": "more...",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 15
+        }
+    },
+     
+    {
+        "pk": 112,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-zadzooks",
+             "parent": 98,
+             "text": "Zadzooks",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/zadzooks/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 14
+        }
+    },
+     
+    {
+        "pk": 111,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-taras-two-cents",
+             "parent": 98,
+             "text": "Tara's Two Cents",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/taras-two-cents/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 13
+        }
+    },
+     
+    {
+        "pk": 110,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-dinan",
+             "parent": 98,
+             "text": "Stephen Dinan on Politics",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/dinan/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 12
+        }
+    },
+     
+    {
+        "pk": 109,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-snoblog",
+             "parent": 98,
+             "text": "SNOBlog",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/snoblog/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 11
+        }
+    },
+     
+    {
+        "pk": 108,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-redskins",
+             "parent": 98,
+             "text": "Redskins 360",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/redskins/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 10
+        }
+    },
+     
+    {
+        "pk": 107,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-potus-notes",
+             "parent": 98,
+             "text": "POTUS Notes with Jon Ward",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/potus-notes/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 9
+        }
+    },
+     
+    {
+        "pk": 106,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-out-context",
+             "parent": 98,
+             "text": "Out of Context",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/out-context/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 8
+        }
+    },
+     
+    {
+        "pk": 105,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-lovey-land",
+             "parent": 98,
+             "text": "Lovey Land",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/lovey-land/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 7
+        }
+    },
+     
+    {
+        "pk": 104,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-kralev",
+             "parent": 98,
+             "text": "Kralev on Diplomacy",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/kralev-diplomacy/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 103,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-curl",
+             "parent": 98,
+             "text": "Joe Curl's Political Theater",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/joe-curl/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 6
+        }
+    },
+     
+    {
+        "pk": 102,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-darrell-green",
+             "parent": 98,
+             "text": "Darrell Green on Football",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/darrell-green-football/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 101,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-d1scourse",
+             "parent": 98,
+             "text": "D1SCOURSE",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/d1scourse",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 100,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-bellantoni",
+             "parent": 98,
+             "text": "Christina Bellantoni on Politics",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/bellantoni/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 99,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs-belief-blog",
+             "parent": 98,
+             "text": "Belief Blog",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/weblogs/belief-blog/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 98,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home-blogs",
+             "parent": null,
+             "text": "",
+             "img": "",
+             "domid": "blogs-menu",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 97,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics-environment",
+             "parent": 91,
+             "text": "Environment",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/environment/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 6
+        }
+    },
+     
+    {
+        "pk": 96,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics-travel",
+             "parent": 91,
+             "text": "Travel",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/travel/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 95,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics-technology",
+             "parent": 91,
+             "text": "Technology",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/technology/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 94,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics-energy",
+             "parent": 91,
+             "text": "Energy",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/energy/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 93,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics-health",
+             "parent": 91,
+             "text": "Health",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/health/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "right",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 92,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics-hottopics",
+             "parent": 91,
+             "text": "Hot Topics",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "title left",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 91,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics",
+             "parent": null,
+             "text": "",
+             "img": "",
+             "domid": "topics",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "lowernav rounded",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 90,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics3-insidethebeltway",
+             "parent": 84,
+             "text": "Inside the Beltway",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/john-mccaslin/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 6
+        }
+    },
+     
+    {
+        "pk": 89,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics3-insidepolitics",
+             "parent": 84,
+             "text": "Inside Politics",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/greg-pierce",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 88,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics3-insidethering",
+             "parent": 84,
+             "text": "Inside the Ring",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/bill-gertz-inside-ring/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 87,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics3-pruden",
+             "parent": 84,
+             "text": "Pruden on Politics",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/wesley-pruden/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 86,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics3-cultureetc",
+             "parent": 84,
+             "text": "Culture Etc.",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/staff/amanda-carpenter/",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "right",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 85,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics3-timesoriginals",
+             "parent": 84,
+             "text": "Times Originals",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "title left",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 84,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "topics3",
+             "parent": null,
+             "text": "",
+             "img": "",
+             "domid": "topics3",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "lowernav rounded",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 83,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "video_documentaries",
+             "parent": 11,
+             "text": "Documentaries",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/video/documentaries/",
+             "location": 1,
+             "active_path_regex": "/video/documentaries/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 6
+        }
+    },
+     
+    {
+        "pk": 82,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "video_morning_briefing",
+             "parent": 11,
+             "text": "Morning Briefing",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/video/morning-briefing/",
+             "location": 1,
+             "active_path_regex": "/video/morning-briefing/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 81,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "video_amanda_carpenter",
+             "parent": 11,
+             "text": "Amanda Carpenter",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/video/amanda-carpenter/",
+             "location": 1,
+             "active_path_regex": "/video/amanda-carpenter/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 80,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "video_liz_glover",
+             "parent": 11,
+             "text": "Liz Glover",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/video/liz-glover/",
+             "location": 1,
+             "active_path_regex": "/video/liz-glover/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 79,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "video_jeff_birnbaum",
+             "parent": 11,
+             "text": "Birnbaum on Washington",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/video/jeff-birnbaum/",
+             "location": 1,
+             "active_path_regex": "/video/jeff-birnbaum/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 78,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "video_two_guys",
+             "parent": 11,
+             "text": "Two Guys",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/video/two-guys-newsroom/",
+             "location": 1,
+             "active_path_regex": "/video/two-guys-newsroom/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 77,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "podcasts_inside_story",
+             "parent": 10,
+             "text": "Inside the Story",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/media/audio/",
+             "location": 1,
+             "active_path_regex": "/media/audio/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 76,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "podcasts_inside_beltway",
+             "parent": 10,
+             "text": "Inside the Beltway",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/media/audio/",
+             "location": 1,
+             "active_path_regex": "/media/audio/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 75,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "podcasts_about",
+             "parent": 10,
+             "text": "About Headlines",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/about/podcasts/",
+             "location": 1,
+             "active_path_regex": "/about/podcasts/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 74,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "marketplace_store",
+             "parent": 9,
+             "text": "TWT Store",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/store/",
+             "location": 1,
+             "active_path_regex": "/store/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 8
+        }
+    },
+     
+    {
+        "pk": 73,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "marketplace_education",
+             "parent": 9,
+             "text": "Education",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/marketplace/categories/education/",
+             "location": 1,
+             "active_path_regex": "/marketplace/categories/education/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 7
+        }
+    },
+     
+    {
+        "pk": 72,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "marketplace_dining_out",
+             "parent": 9,
+             "text": "Dining Out",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/marketplace/categories/food-and-dining/",
+             "location": 1,
+             "active_path_regex": "/marketplace/categories/food-and-dining/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 6
+        }
+    },
+     
+    {
+        "pk": 71,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "marketplace_shopping",
+             "parent": 9,
+             "text": "Shopping",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/marketplace/categories/retail/",
+             "location": 1,
+             "active_path_regex": "/marketplace/categories/retail/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 70,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "marketplace_classifieds",
+             "parent": 9,
+             "text": "Classifieds",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/marketplace/classifieds/",
+             "location": 1,
+             "active_path_regex": "/marketplace/classifieds/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 69,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "marketplace_real_estate",
+             "parent": 9,
+             "text": "Real Estate",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/marketplace/real-estate/",
+             "location": 1,
+             "active_path_regex": "/marketplace/real-estate/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 68,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "marketplace_jobs",
+             "parent": 9,
+             "text": "Jobs",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/marketplace/jobs/",
+             "location": 1,
+             "active_path_regex": "/marketplace/jobs/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 67,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "marketplace_autos",
+             "parent": 9,
+             "text": "Autos",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/autos/",
+             "location": 1,
+             "active_path_regex": "/autos/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 66,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "communities_zadzooks",
+             "parent": 8,
+             "text": "Zadzooks",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/communities/zadzooks/",
+             "location": 1,
+             "active_path_regex": "/communities/zadzooks/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 9
+        }
+    },
+     
+    {
+        "pk": 65,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "communities_chicago_blue_state",
+             "parent": 8,
+             "text": "Chicago Blue State",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/communities/chicago-blue-state/",
+             "location": 1,
+             "active_path_regex": "/communities/chicago-blue-state/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 8
+        }
+    },
+     
+    {
+        "pk": 64,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "communities_welcome_middle_america",
+             "parent": 8,
+             "text": "Middle - America",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/communities/welcome-middle-america/",
+             "location": 1,
+             "active_path_regex": "/communities/welcome-middle-america/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 7
+        }
+    },
+     
+    {
+        "pk": 63,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "communities_civil_war",
+             "parent": 8,
+             "text": "Civil War",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/communities/civil-war/",
+             "location": 1,
+             "active_path_regex": "/communities/civil-war/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 6
+        }
+    },
+     
+    {
+        "pk": 62,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "communities_stories_faith",
+             "parent": 8,
+             "text": "Stories of Faith",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/communities/stories-faith/",
+             "location": 1,
+             "active_path_regex": "/communities/stories-faith/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 61,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "communities_politics_101",
+             "parent": 8,
+             "text": "Politics 101",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/communities/politics-101/",
+             "location": 1,
+             "active_path_regex": "/communities/politics-101/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 60,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "communities_national_pastime",
+             "parent": 8,
+             "text": "National Pastime",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/communities/national-pastime/",
+             "location": 1,
+             "active_path_regex": "/communities/national-pastime/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 59,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "communities_lives_common",
+             "parent": 8,
+             "text": "Lives Common",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/communities/lives-common/",
+             "location": 1,
+             "active_path_regex": "/communities/lives-common/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 58,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "communities_donne_travels",
+             "parent": 8,
+             "text": "Donne Travels",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/communities/donne-travels/",
+             "location": 1,
+             "active_path_regex": "/communities/donne-travels/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 57,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_entertainment",
+             "parent": 6,
+             "text": "Entertainment",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/entertainment/",
+             "location": 1,
+             "active_path_regex": "/news/entertainment/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 15
+        }
+    },
+     
+    {
+        "pk": 56,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_deathnotices",
+             "parent": 6,
+             "text": "Death Notices",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/deathnotices/",
+             "location": 1,
+             "active_path_regex": "/deathnotices/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 14
+        }
+    },
+     
+    {
+        "pk": 55,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_movielistings",
+             "parent": 6,
+             "text": "Movie Listings",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/movie-listings/",
+             "location": 1,
+             "active_path_regex": "/culture/movie-listings/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 13
+        }
+    },
+     
+    {
+        "pk": 54,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_tvlistings",
+             "parent": 6,
+             "text": "TV Listings",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/tv-listings/",
+             "location": 1,
+             "active_path_regex": "/culture/tv-listings/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 12
+        }
+    },
+     
+    {
+        "pk": 53,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_auto",
+             "parent": 6,
+             "text": "Auto",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/auto/",
+             "location": 1,
+             "active_path_regex": "/culture/auto/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 11
+        }
+    },
+     
+    {
+        "pk": 52,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_life",
+             "parent": 6,
+             "text": "Life",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/life/",
+             "location": 1,
+             "active_path_regex": "/culture/life/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 10
+        }
+    },
+     
+    {
+        "pk": 51,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_military_history",
+             "parent": 6,
+             "text": "Military History",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/military-history/",
+             "location": 1,
+             "active_path_regex": "/culture/military-history/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 9
+        }
+    },
+     
+    {
+        "pk": 50,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_books",
+             "parent": 6,
+             "text": "Books",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/books/",
+             "location": 1,
+             "active_path_regex": "/culture/books/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 8
+        }
+    },
+     
+    {
+        "pk": 49,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_washington_visitors",
+             "parent": 6,
+             "text": "Washington Visitors",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/washington-visitors/",
+             "location": 1,
+             "active_path_regex": "/culture/washington-visitors/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 7
+        }
+    },
+     
+    {
+        "pk": 48,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_health",
+             "parent": 6,
+             "text": "Health",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/health/",
+             "location": 1,
+             "active_path_regex": "/culture/health/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 6
+        }
+    },
+     
+    {
+        "pk": 47,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_travel",
+             "parent": 6,
+             "text": "Travel",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/travel/",
+             "location": 1,
+             "active_path_regex": "/culture/travel/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 46,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_food",
+             "parent": 6,
+             "text": "Food",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/food/",
+             "location": 1,
+             "active_path_regex": "/culture/food/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 45,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_fasion",
+             "parent": 6,
+             "text": "Fasion",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/fasion/",
+             "location": 1,
+             "active_path_regex": "/culture/fasion/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 44,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_familyandkids",
+             "parent": 6,
+             "text": "Family & Kids",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/family-and-kids/",
+             "location": 1,
+             "active_path_regex": "/culture/family-and-kids/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 43,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture_homeandliving",
+             "parent": 6,
+             "text": "Home & Living",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/home-and-living/",
+             "location": 1,
+             "active_path_regex": "/culture/home-and-living/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 42,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports_alexovechkin",
+             "parent": 5,
+             "text": "\u0410\u043b\u0435\u043a\u0441 \u041e\u0432\u0435\u0447\u043a\u0438\u043d",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/alex-ovechkin/",
+             "location": 1,
+             "active_path_regex": "/alex-ovechkin/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 12
+        }
+    },
+     
+    {
+        "pk": 41,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports_outdoors",
+             "parent": 5,
+             "text": "Outdoors",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/sports/outdoors/",
+             "location": 1,
+             "active_path_regex": "/sports/outdoors/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 11
+        }
+    },
+     
+    {
+        "pk": 40,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports_olympics",
+             "parent": 5,
+             "text": "Olympics",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/sports/olympics/",
+             "location": 1,
+             "active_path_regex": "/sports/olympics/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 10
+        }
+    },
+     
+    {
+        "pk": 39,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports_ncaa",
+             "parent": 5,
+             "text": "NCAA",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/sports/ncaa/",
+             "location": 1,
+             "active_path_regex": "/sports/ncaa/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 9
+        }
+    },
+     
+    {
+        "pk": 38,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports_soccer",
+             "parent": 5,
+             "text": "Soccer",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/sports/soccer/",
+             "location": 1,
+             "active_path_regex": "/sports/soccer/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 8
+        }
+    },
+     
+    {
+        "pk": 37,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports_racing",
+             "parent": 5,
+             "text": "Motorsports",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/sports/racing/",
+             "location": 1,
+             "active_path_regex": "/sports/racing/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 7
+        }
+    },
+     
+    {
+        "pk": 36,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports_golf",
+             "parent": 5,
+             "text": "Golf",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/sports/golf/",
+             "location": 1,
+             "active_path_regex": "/sports/golf/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 6
+        }
+    },
+     
+    {
+        "pk": 35,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports_tennis",
+             "parent": 5,
+             "text": "Tennis",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/sports/tennis/",
+             "location": 1,
+             "active_path_regex": "/sports/tennis/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 34,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports_hockey",
+             "parent": 5,
+             "text": "NHL",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/sports/hockey/",
+             "location": 1,
+             "active_path_regex": "/sports/hockey/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 33,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports_baseball",
+             "parent": 5,
+             "text": "MLB",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/sports/baseball/",
+             "location": 1,
+             "active_path_regex": "/sports/baseball/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 32,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports_basketball",
+             "parent": 5,
+             "text": "NBA/WNBA",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/sports/basketball/",
+             "location": 1,
+             "active_path_regex": "/sports/basketball/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 31,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports_football",
+             "parent": 5,
+             "text": "NFL",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/sports/football/",
+             "location": 1,
+             "active_path_regex": "/sports/football/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 30,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "opinion_letters",
+             "parent": 4,
+             "text": "Letters to the Editor",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/opinion/letters/",
+             "location": 1,
+             "active_path_regex": "/opinion/letters/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 29,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "opinion_cartoons",
+             "parent": 4,
+             "text": "Cartoons",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/opinion/cartoons/",
+             "location": 1,
+             "active_path_regex": "/opinion/cartoons/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 28,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "opinion_blogs",
+             "parent": 4,
+             "text": "Blogs",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/opinion/blogs/",
+             "location": 1,
+             "active_path_regex": "/opinion/blogs/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 27,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "opinion_commentary",
+             "parent": 4,
+             "text": "Commentary",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/opinion/commentary/",
+             "location": 1,
+             "active_path_regex": "/opinion/commentary/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 26,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "opinion_editorials",
+             "parent": 4,
+             "text": "Editorials",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/opinion/editorials/",
+             "location": 1,
+             "active_path_regex": "/opinion/editorials/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 25,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_headlines",
+             "parent": 3,
+             "text": "Headlines",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/headlines/",
+             "location": 1,
+             "active_path_regex": "/news/headlines/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 14
+        }
+    },
+     
+    {
+        "pk": 24,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_podcasts",
+             "parent": 3,
+             "text": "Podcasts",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/about/podcasts/",
+             "location": 1,
+             "active_path_regex": "/about/podcasts/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 13
+        }
+    },
+     
+    {
+        "pk": 23,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_environment",
+             "parent": 3,
+             "text": "Environment",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/environment/",
+             "location": 1,
+             "active_path_regex": "/news/environment/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 12
+        }
+    },
+     
+    {
+        "pk": 22,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_energy",
+             "parent": 3,
+             "text": "Energy",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/energy/",
+             "location": 1,
+             "active_path_regex": "/news/energy/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 11
+        }
+    },
+     
+    {
+        "pk": 21,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_faith",
+             "parent": 3,
+             "text": "Faith",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/faith/",
+             "location": 1,
+             "active_path_regex": "/news/faith/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 10
+        }
+    },
+     
+    {
+        "pk": 20,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_investigation",
+             "parent": 3,
+             "text": "Investigation",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/investigation/",
+             "location": 1,
+             "active_path_regex": "/news/investigation/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 9
+        }
+    },
+     
+    {
+        "pk": 19,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_technology",
+             "parent": 3,
+             "text": "Technology",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/technology/",
+             "location": 1,
+             "active_path_regex": "/news/technology/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 8
+        }
+    },
+     
+    {
+        "pk": 18,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_entertainment",
+             "parent": 3,
+             "text": "Entertainment",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/entertainment/",
+             "location": 1,
+             "active_path_regex": "/news/entertainment/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 7
+        }
+    },
+     
+    {
+        "pk": 17,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_business",
+             "parent": 3,
+             "text": "Business",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/business/",
+             "location": 1,
+             "active_path_regex": "/news/business/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 6
+        }
+    },
+     
+    {
+        "pk": 16,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_nationalsecurity",
+             "parent": 3,
+             "text": "National Security",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/secuity/",
+             "location": 1,
+             "active_path_regex": "/news/secuity/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 15,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_politics",
+             "parent": 3,
+             "text": "Politics",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/politics/",
+             "location": 1,
+             "active_path_regex": "/news/politics/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 14,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_dcarea",
+             "parent": 3,
+             "text": "DC Area",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/local/",
+             "location": 1,
+             "active_path_regex": "/news/local/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 13,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_national",
+             "parent": 3,
+             "text": "National",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/national/",
+             "location": 1,
+             "active_path_regex": "/news/national/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 12,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news_world",
+             "parent": 3,
+             "text": "World",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/world/",
+             "location": 1,
+             "active_path_regex": "/news/world/.*",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 11,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "videos",
+             "parent": 1,
+             "text": "Videos",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/videos/",
+             "location": 1,
+             "active_path_regex": "/videos/.*",
+             "active": true,
+             "active_cssclass": "active_9",
+             "alt": "",
+             "cssclass": "red",
+             "active_domid": "",
+             "order": 9
+        }
+    },
+     
+    {
+        "pk": 10,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "podcasts",
+             "parent": 1,
+             "text": "Podcasts",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/podcasts/",
+             "location": 1,
+             "active_path_regex": "/podcasts/.*",
+             "active": true,
+             "active_cssclass": "active_10",
+             "alt": "",
+             "cssclass": "red",
+             "active_domid": "",
+             "order": 10
+        }
+    },
+     
+    {
+        "pk": 9,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "marketplace",
+             "parent": 1,
+             "text": "Marketplace",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/marketplace/",
+             "location": 1,
+             "active_path_regex": "/marketplace/.*",
+             "active": true,
+             "active_cssclass": "active_8",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 8
+        }
+    },
+     
+    {
+        "pk": 8,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "communities",
+             "parent": 1,
+             "text": "Communities",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/communities/",
+             "location": 1,
+             "active_path_regex": "/communities/.*",
+             "active": true,
+             "active_cssclass": "active_7",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 7
+        }
+    },
+     
+    {
+        "pk": 7,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "themes",
+             "parent": 1,
+             "text": "Themes",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/themes/",
+             "location": 1,
+             "active_path_regex": "/themes/.*",
+             "active": true,
+             "active_cssclass": "active_6",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 6
+        }
+    },
+     
+    {
+        "pk": 6,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "culture",
+             "parent": 1,
+             "text": "Culture",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/culture/",
+             "location": 1,
+             "active_path_regex": "/culture/.*",
+             "active": true,
+             "active_cssclass": "active_5",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 5
+        }
+    },
+     
+    {
+        "pk": 5,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "sports",
+             "parent": 1,
+             "text": "Sports",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/sports/",
+             "location": 1,
+             "active_path_regex": "/sports/.*",
+             "active": true,
+             "active_cssclass": "active_4",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 4
+        }
+    },
+     
+    {
+        "pk": 4,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "opinion",
+             "parent": 1,
+             "text": "Opinion",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/opinion/",
+             "location": 1,
+             "active_path_regex": "/opinion/.*",
+             "active": true,
+             "active_cssclass": "active_3",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 3
+        }
+    },
+     
+    {
+        "pk": 3,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "news",
+             "parent": 1,
+             "text": "News",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/news/",
+             "location": 1,
+             "active_path_regex": "/news/.*",
+             "active": true,
+             "active_cssclass": "active_2",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 2
+        }
+    },
+     
+    {
+        "pk": 2,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "home",
+             "parent": 1,
+             "text": "Home",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "/",
+             "location": 1,
+             "active_path_regex": "^/$",
+             "active": true,
+             "active_cssclass": "active_1",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    },
+     
+    {
+        "pk": 1,
+         "model": "hiermenu.menu",
+         "fields": 
+        {
+            "template_name": "",
+             "active_template_name": "",
+             "name": "mainmenu",
+             "parent": null,
+             "text": "",
+             "img": "",
+             "domid": "",
+             "display": true,
+             "cssstyle": "",
+             "active_cssstyle": "",
+             "link": "",
+             "location": 1,
+             "active_path_regex": "",
+             "active": true,
+             "active_cssclass": "",
+             "alt": "",
+             "cssclass": "",
+             "active_domid": "",
+             "order": 1
+        }
+    }
+]
+
