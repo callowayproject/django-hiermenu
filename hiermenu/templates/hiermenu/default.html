@@ -1,8 +1,8 @@
 {% load menu_tags %}
-<ol>
+<ul>
 {% for item in items %}
 	<li>{{ item.text }}
 		{% render_menu item none %}
 	</li>
 {% endfor %}
-</ol>
+</ul>

@@ -1,0 +1,25 @@
+{% if items %}
+<ul class="subnav {% if menu.active_cssclass %}{{ menu.active_cssclass }}{% endif %}">
+	{% for item in items %}
+		<li>
+			<a href="{{ item.link }}">
+				{% if item.is_active %}<strong>{% endif %}{{ item.text }}{% if item.is_active %}</strong>{% endif %}
+			</a>
+		</li>
+	{% endfor %}
+</ul>
+{% endif %}
+{# {% ifequal request.path "/sports/" %} #}
+{# 	{% ifequal menu.name "sports" %} #}
+{# 		<div id="sports-submenu"> #}
+{# 			<ul> #}
+{# 				<li><a href="football"><img src="{{ MEDIA_URL }}img/sports-subnav-football.jpg" /></a></li> #}
+{# 				<li><a href="basketball"><img src="{{ MEDIA_URL }}img/sports-subnav-basketball.jpg" /></a></li> #}
+{# 				<li><a href="baseball"><img src="{{ MEDIA_URL }}img/sports-subnav-baseball.jpg" /></a></li> #}
+{# 			  	<li><a href="hockey"><img src="{{ MEDIA_URL }}img/sports-subnav-hockey.jpg" /></a></li> #}
+{# 				<li><a href="ncaa"><img src="{{ MEDIA_URL }}img/sports-subnav-ncaa.jpg" /></a></li> #}
+{# 				<li><a href="http://www.masnsports.com/"><img src="{{ MEDIA_URL }}img/sports-subnav-hot-corner.jpg" /></a></li> #}
+{# 			</ul> #}
+{# 		</div> #}
+{# 	{% endifequal %} #}
+{# {% endifequal %} #}
