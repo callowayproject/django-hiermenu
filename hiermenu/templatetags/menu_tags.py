@@ -30,6 +30,7 @@ class RenderMenuNode(Node):
         m_name, menu, request = self.menu_name, None, None
         loc, loc_name = int(self.loc), self.loc_name.lower()
         tmp_pre, override_match = self.template_prefix, self.override_match
+        cache_menu, cache_items = False, False
         # Try to resolve the menu_name argument, incase it is a Menu object,
         # we set m_name to menu.name if it is not a Menu object but
         # still resolves, we use that as the name.
@@ -64,6 +65,7 @@ class RenderMenuNode(Node):
             try:
                 menu = cache.get(key)
                 if not menu:
+                    cache_menu = True
                     menu = Menu.objects.get(name__iexact=m_name, location=loc)
             except Menu.DoesNotExist:
                 return ''
@@ -72,6 +74,7 @@ class RenderMenuNode(Node):
         # the items from the database.
         items = cache.get(key_items)
         if not items:
+            cache_items = True
             items = Menu.objects.get_items(menu)
         
         # Determine if the current menu is an active menu according to the 
@@ -146,9 +149,11 @@ class RenderMenuNode(Node):
         c = {'menu': menu, 'items': items, 'request': request}
         # Render the template
         ret = render_to_string(template.name, c)
-        # Set the cache keys.
-        cache.set(key, menu, settings.CACHE_TIMEOUT)
-        cache.set(key_items, items, settings.CACHE_TIMEOUT)
+        # Set the cache keys, only if items were not retrieved from cache.
+        if cache_menu:
+            cache.set(key, menu, settings.CACHE_TIMEOUT)
+        if cache_items:
+            cache.set(key_items, items, settings.CACHE_TIMEOUT)
         # Return the render template.
         return ret
         
