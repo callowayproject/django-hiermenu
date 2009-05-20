@@ -59,5 +59,5 @@ class Menu(models.Model):
         return self.name
         
     class Meta:
-        ordering = ['order']
+        ordering = ['name',]
 
