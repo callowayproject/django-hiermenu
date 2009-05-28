@@ -1,0 +1,8 @@
+{% load menu_tags %}
+{% if items %}
+	<ul>
+	{% for item in items %}
+		<li><a href="http://www.washingtontimes.com{{ item.link }}">{{ item.text }}</a></li>
+	{% endfor %}
+	</ul>
+{% endif %}

@@ -1,0 +1,17 @@
+{% load menu_tags %}
+<ul class="nav dd dd-nav">
+	{% for item in items %}
+		<li {% if item.is_active %}
+				class="{% if item.cssclass %}{{ item.cssclass }} {% endif %}{{ item.active_cssclass }}"
+			{% else %}
+				{% if item.cssclass %}class="{{ item.cssclass }}"{% endif %} 
+			{% endif %}
+			{% if item.cssstyle %}style="{{ item.cssstyle }}"{% endif %}
+			{% if item.domid %}id="{{ item.domid }}"{% endif %}>
+			<a href="http://www.washingtontimes.com{{ item.link }}" title="{{ item.text }}">{{ item.text }}</a>
+			{% if not item.is_active %}
+				{% render_menu item none fpdd_ %}
+			{% endif %}
+		</li>
+	{% endfor %}
+</ul>
