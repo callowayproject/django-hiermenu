@@ -1,59 +1,29 @@
-"""
-Based entirely on Django's own ``setup.py``.
-"""
 import os
-from distutils.command.install import INSTALL_SCHEMES
-from distutils.core import setup
+from setuptools import setup, find_packages
 
-def fullsplit(path, result=None):
-    """
-    Split a pathname into components (the opposite of os.path.join) in a
-    platform-neutral way.
-    """
-    if result is None:
-        result = []
-    head, tail = os.path.split(path)
-    if head == '':
-        return [tail] + result
-    if head == path:
-        return result
-    return fullsplit(head, [tail] + result)
+def read_file(filename):
+    """Read a file into a string"""
+    path = os.path.abspath(os.path.dirname(__file__))
+    filepath = os.path.join(path, filename)
+    try:
+        return open(filepath).read()
+    except IOError:
+        return ''
 
-# Tell distutils to put the data_files in platform-specific installation
-# locations. See here for an explanation:
-# http://groups.google.com/group/comp.lang.python/browse_thread/thread/35ec7b2fed36eaec/2105ee4d9e8042cb
-for scheme in INSTALL_SCHEMES.values():
-    scheme['data'] = scheme['purelib']
-
-# Compile the list of packages available, because distutils doesn't have
-# an easy way to do this.
-packages, data_files = [], []
-root_dir = os.path.dirname(__file__)
-tagging_dir = os.path.join(root_dir, 'hiermenu')
-pieces = fullsplit(root_dir)
-if pieces[-1] == '':
-    len_root_dir = len(pieces) - 1
-else:
-    len_root_dir = len(pieces)
-
-for dirpath, dirnames, filenames in os.walk(tagging_dir):
-    # Ignore dirnames that start with '.'
-    for i, dirname in enumerate(dirnames):
-        if dirname.startswith('.'): del dirnames[i]
-    if '__init__.py' in filenames:
-        packages.append('.'.join(fullsplit(dirpath)[len_root_dir:]))
-    elif filenames:
-        data_files.append([dirpath, [os.path.join(dirpath, f) for f in filenames]])
+# Use the docstring of the __init__ file to be the description
+DESC = " ".join(__import__('hiermenu').__doc__.splitlines()).strip()
 
 setup(
-    name = 'hiermenu',
-    version="0.1",
-    description = 'A Hierarchal Menu App',
+    name = "django-hiermenu",
+    version = __import__('hiermenu').get_version().replace(' ', '-'),
+    url = 'http://github.com/washingtontimes/django-hiermenu',
     author = 'Jose Soares',
     author_email = 'jsoares@washingtontimes.com',
-    url = 'http://opensource.washingtontimes.com/projects/hiermenu/',
-    packages = packages,
-    data_files = data_files,
+    description = DESC,
+    long_description = read_file('README'),
+    packages = find_packages(),
+    include_package_data = True,
+    install_requires=read_file('requirements.txt'),
     classifiers = [
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
