@@ -54,8 +54,9 @@ class RenderMenuNode(Node):
             request = Variable('request').resolve(context)
             
         # Build the cache keys, one for the menu object and one for the menu
-        # items. 
-        key = '%s.hiermenu.%s' % (settings.CACHE_KEY_PREFIX, m_name)
+        # items.
+        cache_replace = '---------------------------------!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz-------------------------------------------------------------------------------------------------------------------------------------'
+        key = '%s.hiermenu.%s' % (settings.CACHE_KEY_PREFIX, m_name.translate(cache_replace))
         key_items = key + '.items' 
         
         # If the menu was not resolved, this means a name was passed in, 
