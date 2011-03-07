@@ -4,7 +4,7 @@ A hierarchical menuing system for Django
 __version_info__ = {
     'major': 0,
     'minor': 2,
-    'micro': 0,
+    'micro': 1,
     'releaselevel': 'final',
     'serial': 1
 }
