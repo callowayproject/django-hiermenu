@@ -55,7 +55,7 @@ class RenderMenuNode(Node):
             
         # Build the cache keys, one for the menu object and one for the menu
         # items.
-        cache_replace = '---------------------------------!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz-------------------------------------------------------------------------------------------------------------------------------------'
+        cache_replace = u'---------------------------------!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz-------------------------------------------------------------------------------------------------------------------------------------'
         key = '%s.hiermenu.%s' % (settings.CACHE_KEY_PREFIX, m_name.translate(cache_replace))
         key_items = key + '.items' 
         
