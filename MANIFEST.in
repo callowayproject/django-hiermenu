@@ -1,0 +1,5 @@
+recursive-include hiermenu/templates *
+
+include LICENSE
+include README
+include *.txt
