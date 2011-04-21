@@ -15,7 +15,7 @@ class MenuManager(models.Manager):
 
 class Menu(models.Model):
     name = models.SlugField(max_length=100, 
-        help_text='Menu name.')
+        help_text='Menu name.', unique=True)
     parent = models.ForeignKey("self", null=True, blank=True, 
         help_text='The parent MenuItem this item will be a subitem of.')
     text = models.CharField(blank=True, max_length=50, 
