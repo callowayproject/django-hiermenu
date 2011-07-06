@@ -5,7 +5,7 @@ from hiermenu import settings
 
 
 class MenuManager(models.Manager):
-    def get_items(self, menu, show_hidden=False, limit=None):
+    def get_items(self, menu, show_hidden=False, limit=None, user_groups=[]):
         kwargs = {'display': True}
         if show_hidden:
             kwargs = {}
@@ -13,6 +13,10 @@ class MenuManager(models.Manager):
             **kwargs).order_by('order')
         if isinstance(limit, int):
             q = q[:limit]
+        for menu in q:
+            menu_groups = menu.groups.all()
+            if menu_groups and not set(menu_groups) & set(user_groups):
+                q = q.exclude(pk=menu.pk)
         return q
 
 
