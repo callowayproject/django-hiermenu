@@ -82,7 +82,7 @@ class RenderMenuNode(Node):
         items = cache.get(key_items)
         if not items:
             cache_items = True
-            items = Menu.objects.get_items(menu, user_groups)
+            items = Menu.objects.get_items(menu, user_groups=user_groups)
 
         # Determine if the current menu is an active menu according to the
         # request.path and the menu's active_regex_path. If it is active
