@@ -5,7 +5,9 @@ from hiermenu import settings
 
 
 class MenuManager(models.Manager):
-    def get_items(self, menu, show_hidden=False, limit=None, user_groups=[]):
+    def get_items(self, menu, show_hidden=False, limit=None, user_groups=None):
+        if user_groups == None:
+            user_groups = []
         kwargs = {'display': True}
         if show_hidden:
             kwargs = {}
