@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-12-12 02:30-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: models.py:28
+msgid "Menu name."
+msgstr ""
+
+#: models.py:30
+msgid "The parent MenuItem this item will be a subitem of."
+msgstr ""
+
+#: models.py:32
+msgid "The text of the item."
+msgstr ""
+
+#: models.py:34
+msgid "The url in which this item links to."
+msgstr ""
+
+#: models.py:36
+msgid "The alternate text."
+msgstr ""
+
+#: models.py:38
+msgid "The order of the MenuItems."
+msgstr ""
+
+#: models.py:40
+msgid "A regular expression to identify this menu as active."
+msgstr ""
+
+#: models.py:42
+msgid "Location of menu."
+msgstr ""
+
+#: models.py:44
+msgid "Show this menu item."
+msgstr ""
+
+#: models.py:46
+msgid "Extra css classes."
+msgstr ""
+
+#: models.py:48
+msgid "Extra css styles."
+msgstr ""
+
+#: models.py:50
+msgid "A dom ID."
+msgstr ""
+
+#: models.py:52
+msgid "Extra css classes for active items."
+msgstr ""
+
+#: models.py:54
+msgid "Extra css styles for active items."
+msgstr ""
+
+#: models.py:56
+msgid "A dom ID for active items."
+msgstr ""
+
+#: models.py:58
+msgid "A menu image."
+msgstr ""
+
+#: models.py:60
+msgid "Template override."
+msgstr ""
+
+#: models.py:62
+msgid "Acitve template override."
+msgstr ""
+
+#: models.py:64
+msgid "Is this item active?"
+msgstr ""
+
+#: models.py:65
+msgid "Add one group or more if you want to make the menu private"
+msgstr ""
