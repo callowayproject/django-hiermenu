@@ -117,7 +117,7 @@ class RenderMenuNode(Node):
             # Menu name templates
             if not template:
                 try:
-                    template = get_template('hiermenu/%s%s%s%s.html' (
+                    template = get_template('hiermenu/%s%s%s%s.html' % (
                         tmp_pre, m_name, loc_name, suffix_template_name))
                 except:
                     try:
