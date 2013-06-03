@@ -117,7 +117,7 @@ class RenderMenuNode(Node):
             # Menu name templates
             if not template:
                 try:
-                    template = get_template('hiermenu/%s%s%s%s.html' (
+                    template = get_template('hiermenu/%s%s%s%s.html' % (
                         tmp_pre, m_name, loc_name, suffix_template_name))
                 except:
                     try:
@@ -164,6 +164,7 @@ class RenderMenuNode(Node):
         return ret
 
 
+@register.tag(name="render_menu")
 def do_render_menu(parser, token):
     """
     Render the menu
@@ -187,4 +188,11 @@ def do_render_menu(parser, token):
         return RenderMenuNode(argv[1], argv[2], argv[3], argv[4])
     raise TemplateSyntaxError("Tag %s takes at least 2 argument." % argv[0])
 
-register.tag("render_menu", do_render_menu)
+
+@register.filter
+def has_children(menu, user):
+    """
+    Return boolean: Does the menu has children visible by user ?
+    """
+    children = Menu.objects.get_items(menu, user_groups=user.groups.all())
+    return children
